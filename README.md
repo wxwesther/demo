@@ -4,9 +4,9 @@
 ### How to use
 A web server project written by golang.
 
-In a docker environment, pull the latest code to $GOPATH, and run below command to build a docker image
+In a docker environment, pull the latest code to $GOPATH/src, and run below command to build a docker image
 ```console
->cd $GOPATH/demo
+>cd $GOPATH/src/demo
 >docker build -t demo .
 ```
 Then run below command check the image generated
