@@ -19,3 +19,8 @@ Start service by running demo docker image
 ```console
 >docker run -p 5000:5000 demo
 ```
+Then you can verify the serivce works or not by typeing below url in browser
+```console
+http://$HOST_NAME:5000/cities.json
+http://$HOST_NAME:5000/members.json
+```
