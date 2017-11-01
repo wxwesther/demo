@@ -28,7 +28,7 @@ type memberResponse struct {
 }
 
 func memberHandler(res http.ResponseWriter, req *http.Request){
-	members := memberResponse{ Members: []string{"Ruby", "weifeng", "iris"}}
+	members := memberResponse{ Members: []string{"Ruby", "NWF", "Iris"}}
 	res.Header().Set("Content-Type", "application/json; charset=utf-8")
 	json.NewEncoder(res).Encode(members)
 }
